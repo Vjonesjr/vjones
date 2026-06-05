@@ -1,0 +1,85 @@
+# Shopify App Analysis
+### Power BI | DAX | Data Modeling | Business Intelligence
+
+---
+
+## 📌 Project Overview
+
+This project analyzes the landscape of apps on the Shopify platform using data scraped from publicly available Shopify websites. The goal is to identify key factors that drive the success of a Shopify app — including ratings, review volume, developer responsiveness, and review quality.
+
+Built as part of the TripleTen Data Analytics program (Power BI Sprint), this project is organized into three report pages in a single `.pbix` file.
+
+---
+
+## 🎯 Business Problem
+
+> *What factors determine whether a Shopify app succeeds or fails on the marketplace?*
+
+With thousands of apps competing for attention, understanding what separates top performers from the rest gives developers and platform managers a data-driven edge.
+
+---
+
+## 📊 Report Pages & Visualizations
+
+### Page 1 — App Landscape
+Explores the overall app ecosystem using the Apps table.
+
+| Visual | Description |
+|---|---|
+| KPI Card | Count of unique apps on the platform (7,341K) |
+| Line Chart | Sum of review count over time (by lastmod date) |
+| Scatterplot | Reviews count vs. average rating — annotated with insight: apps with more reviews tend to have more stable ratings |
+
+---
+
+### Page 2 — Reviews
+Deep dive into review quality and developer engagement.
+
+| Visual | Description |
+|---|---|
+| DAX Column | `helpful_reviews` = rating × (1 + helpful_count) — weighs reviews by usefulness |
+| Card | Average helpful_reviews score (5.48) |
+| DAX Column | `developer_answered` = 1 if developer replied, 0 if not |
+| Scatterplot | Average rating by developer_answered — comparing responsiveness to ratings |
+
+---
+
+### Page 3 — App Reviews
+Combines the Reviews and Apps tables via a many-to-one data model relationship.
+
+| Visual | Description |
+|---|---|
+| Bar Chart | Sum of rating by developer |
+| Bar Chart | Average helpful_reviews by developer — removes bias from high-volume low-quality reviews |
+| Bar Chart | Developer responsiveness (developer_answered) filtered to apps with 500+ reviews |
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- Power BI report design (3-page `.pbix` file)
+- DAX calculated columns (`helpful_reviews`, `developer_answered`)
+- Data modeling — many-to-one relationship between Reviews and Apps tables
+- KPI cards, scatterplots, bar charts, line charts
+- Visual-level filters and cross-report filtering
+- Translating business questions into analytical visuals
+
+---
+
+## 📁 Dataset
+
+Source: [Shopify App Store public data](https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/BIA/Dataset/shopify.xlsx)
+
+Tables used:
+- `apps` — App details
+- `apps_categories` — Join table
+- `categories` — App categories
+- `reviews` — User reviews and developer responses
+
+---
+
+## 👤 Author
+
+**Vincent L. Jones, Jr.**
+Business Intelligence Analyst | TripleTen Data Analytics Student
+[LinkedIn](https://linkedin.com/in/jrjonesvincent) | [Tableau Public](https://public.tableau.com/app/profile/vincent.jones8805) | jonesjrvl@gmail.com
