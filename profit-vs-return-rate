@@ -1,0 +1,48 @@
+# Profit vs. Return Rate Analysis
+### Tableau | Exploratory Analysis | Business Intelligence
+
+---
+
+## 📌 Project Overview
+
+This project explores the relationship between profitability and return rates across a retail dataset. Built as part of the TripleTen Data Analytics program (Sprint 4), this analysis investigates whether high-profit products and categories also carry higher return risks — and what that means for business strategy.
+
+---
+
+## 🎯 Business Problem
+
+> *Are the products driving the most profit also the ones being returned the most?*
+
+Understanding the profit-to-return relationship helps leadership make smarter decisions around product mix, pricing, and category management.
+
+---
+
+## 📊 Visualizations Built
+
+- **Profit vs. Return Rate** — Core scatterplot comparing profitability against return frequency across product lines
+- Interactive filters to drill down by category, region, and time period
+- Trend analysis to surface outliers and high-risk, high-profit segments
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- Tableau calculated fields and aggregations
+- Scatterplot design and axis configuration
+- Exploratory data analysis (EDA)
+- Identifying business insights from visual patterns
+- Dashboard interactivity and filtering
+
+---
+
+## 🔗 Live Project
+
+👉 [View on Tableau Public](https://public.tableau.com/views/Sprint4FinalProject_17700895234780/Profitvs_ReturnRate)
+
+---
+
+## 👤 Author
+
+**Vincent L. Jones, Jr.**
+Business Intelligence Analyst | TripleTen Data Analytics Student
+[LinkedIn](https://linkedin.com/in/jrjonesvincent) | [Tableau Public](https://public.tableau.com/app/profile/vincent.jones8805) | jonesjrvl@gmail.com
