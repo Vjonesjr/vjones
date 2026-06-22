@@ -16,6 +16,42 @@ Built as part of the TripleTen Data Analytics program (Power BI Sprint), this pr
 
 ---
 
+## Screenshots
+
+> Upload screenshots of each page from your Power BI report here. Drag and drop images directly into the GitHub README editor — they will auto-upload and generate the markdown link for you.
+
+![App Landscape Page](add-screenshot-link-here)
+![Reviews Page](add-screenshot-link-here)
+![App Reviews Page](add-screenshot-link-here)
+
+---
+
+## Deployment & System Requirements
+
+This project was built using **Power BI Desktop**.
+
+**To open and edit the source file:**
+- Power BI Desktop (free) — version 2.120 or later recommended
+- Windows 10 or later (Power BI Desktop is Windows only)
+- Microsoft account for publishing/sharing if desired
+- The `.pbix` file included in this repository
+
+**To view without Power BI Desktop:**
+- Screenshots are provided above for each report page
+- Demo video walkthrough linked below
+
+---
+
+## Roadmap
+
+- Fix the static reviews_count filter using a dynamic slicer to achieve user-adjustable thresholds instead of a hardcoded 500-review cutoff
+- Fix the single relationship between Reviews and Apps using a full star schema with the Categories and Apps_Categories tables to achieve category-level breakdowns of developer responsiveness
+- Fix the lack of time-based trend analysis using the lastmod date field to achieve month-over-month tracking of developer responsiveness improvements
+- Fix the helpful_reviews calculation using a normalized 0-to-100 scale instead of raw multiplication to achieve easier cross-app comparison
+
+
+---
+
 ## 🎯 Business Problem
 
 > *What factors determine whether a Shopify app succeeds or fails on the marketplace?*
