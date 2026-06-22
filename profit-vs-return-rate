@@ -14,6 +14,44 @@ This project explores the relationship between profitability and return rates ac
 
 ---
 
+## Screenshots
+
+> Upload screenshots of each tab from your Tableau Public project here. Drag and drop images directly into the GitHub README editor — they will auto-upload and generate the markdown link for you.
+
+![Biggest Loss Profit](add-screenshot-link-here)
+![Stop Selling](add-screenshot-link-here)
+![Sell More Of](add-screenshot-link-here)
+![Best Adv State Month Combo](add-screenshot-link-here)
+![Product Return Rate](add-screenshot-link-here)
+![Highest Return Rate](add-screenshot-link-here)
+![Profit vs Return Rate](add-screenshot-link-here)
+
+---
+
+## Deployment & System Requirements
+
+This project was built using **Tableau Public** and requires no installation to view.
+
+**To view the live dashboard:**
+- Any modern web browser (Chrome, Firefox, Edge, Safari)
+- No login or software required
+- Internet connection to access Tableau Public
+
+**To open and edit the source workbook:**
+- Tableau Desktop or Tableau Public (free) — version 2023.1 or later recommended
+- Download the `.twbx` packaged workbook file (if shared) and open directly in Tableau
+
+---
+
+## Roadmap
+
+- Fix the lack of a profit threshold filter using a parameter control to achieve a flexible way for stakeholders to define what counts as "high profit" or "high loss"
+- Fix the static Stop Selling list using a rolling 90-day trend calculation to achieve recommendations based on recent performance rather than all-time totals
+- Fix the single-metric return rate view using a combined profit-and-return risk score to achieve a single ranked list of the products needing the most urgent attention
+- Fix the lack of seasonal context in Best Adv. State/Month Combo using year-over-year comparison to achieve more reliable promotional timing recommendations
+
+---
+
 ## 🎯 Business Problem
 
 > *Are the products driving the most profit also the ones being returned the most?*
