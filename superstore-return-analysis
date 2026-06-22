@@ -16,6 +16,42 @@ The final deliverable is a multi-page Tableau Story that walks stakeholders thro
 
 ---
 
+## Screenshots
+
+> Upload screenshots of each chart from your Tableau Public project here. Drag and drop images directly into the GitHub README editor — they will auto-upload and generate the markdown link for you.
+
+![Scatterplot](add-screenshot-link-here)
+![Return Rate by Category](add-screenshot-link-here)
+![Geographic Map](add-screenshot-link-here)
+![Heatmap](add-screenshot-link-here)
+![Dashboard](add-screenshot-link-here)
+
+---
+
+## Deployment & System Requirements
+
+This project was built using **Tableau Public** and requires no installation to view.
+
+**To view the live dashboard:**
+- Any modern web browser (Chrome, Firefox, Edge, Safari)
+- No login or software required
+- Internet connection to access Tableau Public
+
+**To open and edit the source workbook:**
+- Tableau Desktop or Tableau Public (free) — version 2023.1 or later recommended
+- Download the `.twbx` packaged workbook file (if shared) and open directly in Tableau
+
+---
+
+## Roadmap
+
+- Fix the static date range using a dynamic relative date filter to achieve real-time monthly updates without manual refresh
+- Fix the single-state geographic view using a drill-down hierarchy from state to city to achieve more granular regional insight
+- Fix the manual return rate calculation using a parameter-driven threshold to achieve flexible "high risk" categorization that stakeholders can adjust themselves
+- Fix the lack of customer segmentation using RFM (Recency, Frequency, Monetary) analysis to achieve a clearer view of which customer segments drive the most returns
+
+---
+
 ## 🎯 Business Problem
 
 > *What is causing high return rates, and what can leadership do about it?*
