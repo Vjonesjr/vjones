@@ -26,21 +26,25 @@ Army veteran turned Business Intelligence Analyst — I spent 10+ years leading 
 
 ---
 
-## 📁 Featured Projects
+## 📁 Project Portfolio — Table of Contents
 
-### 📦 Superstore Return Rate Analysis *(TripleTen Sprint 5)*
-A full Tableau story analyzing what's driving product returns at a fictional retail company. Built 7 charts, a dashboard, and a multi-page story with actionable business recommendations.
+This repository is the master portfolio for all data analytics and business intelligence projects completed through the TripleTen Data Analytics program. Each project applies real-world data to solve business problems using Tableau, Power BI, SQL, and Excel.
 
-**Charts included:**
-- Scatterplot — Sales vs. Returns by Sub-Category
-- Return Rate by Product Category
-- Return Rate by Top 10 Customers
-- Geographic Map — Return Rate by State
-- Dual-Axis — Return Rate Over Time (Monthly)
-- Heatmap — Category × Month
-- Dual-Axis — Total Returns vs. Return Rate by Month
+| # | Project | Tools | Description |
+|---|---|---|---|
+| 1 | [Superstore Return Rate Analysis](./superstore-return-analysis) | Tableau | Analyzed root causes of product returns using 7 charts, a dashboard, and a full Tableau story |
+| 2 | [Profit vs. Return Rate Analysis](./profit-vs-return-rate) | Tableau | Explored the relationship between profitability and return rates across product lines |
+| 3 | [Shopify App Analysis](./shopify-app-analysis) | Power BI | Investigated key factors driving Shopify app success using DAX, data modeling, and multi-page reporting |
 
-🔗 [View on Tableau Public](https://public.tableau.com/app/profile/vincent.jones8805)
+---
+
+## Skills Demonstrated Across Projects
+
+- Tableau dashboards, stories, calculated fields, LOD expressions
+- Power BI report design, DAX calculated columns, data modeling
+- Exploratory data analysis (EDA)
+- Data storytelling for non-technical stakeholders
+- Business recommendations from data insights
 
 ---
 
@@ -60,4 +64,4 @@ A full Tableau story analyzing what's driving product returns at a fictional ret
 
 ---
 
-*Currently open to work — let's connect!*
+*Currently open to work — let's connect! More projects coming as I complete additional sprints.*
